@@ -40,6 +40,18 @@ public class ClissificacaoKnnApplication implements CommandLineRunner {
             }
         }
 
+        int i = 1;
+        for (Iris iris: irisList){
+
+            System.out.println(i ++);
+            System.out.println(iris.getPetallength());
+            System.out.println(iris.getPetalwidth());
+            System.out.println(iris.getSepallength());
+            System.out.println(iris.getSepalwidth());
+            System.out.println(iris.getIrisType());
+            System.out.println("----------------------------------------------------------");
+        }
+
 
     }
 }

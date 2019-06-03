@@ -9,7 +9,7 @@ public class MapperIris {
 
         if (caracteristicas != null && caracteristicas.length() > 0){
             String[] sepallength = caracteristicas.split(",");
-            System.out.println(sepallength);
+            //System.out.println(sepallength);
             iris.setSepallength(Double.parseDouble(sepallength[0]));
             iris.setSepalwidth(Double.parseDouble(sepallength[1]));
             iris.setPetallength(Double.parseDouble(sepallength[2]));
